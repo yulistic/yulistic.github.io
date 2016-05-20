@@ -5,6 +5,7 @@ baseurl       = "https://yulistic.gitlab.io/"
 title         = "Yulistic.com"
 canonifyurls  = true
 theme         = "Lanyon"
+hasCJKLanguage= true
 
 [indexes]
   category  = "categories"
