@@ -10,7 +10,7 @@ wordpress_id: 163
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 When you rebuild your own kernel and upload it on your ODROID-XU board with Android system, the kernel modules should be uploaded too.

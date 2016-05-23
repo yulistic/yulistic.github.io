@@ -10,7 +10,7 @@ wordpress_id: 112
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Environment: Mint Linux 17 64bit (on X86 machine)

@@ -14,7 +14,7 @@ tags:
 - samba
 - samba client
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Problem: I want to connect to samba server (windows machine) from linux machine.

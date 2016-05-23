@@ -11,7 +11,7 @@ language:
 - English
 topics:
 - Linux
-- Problems &amp; Solutions
+- Issues
 - Tips
 ---
 

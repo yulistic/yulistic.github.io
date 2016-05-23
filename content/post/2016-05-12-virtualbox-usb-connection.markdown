@@ -10,7 +10,7 @@ wordpress_id: 126
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Problem: Virtualbox does not recognize host's USBs. Being different from the below screenshot, none of USBs was recognized.

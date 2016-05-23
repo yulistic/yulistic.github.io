@@ -19,7 +19,7 @@ tags:
 - wiki
 topics:
 - Linux
-- Problems &amp; Solutions
+- Issues
 ---
 
 # Intro.

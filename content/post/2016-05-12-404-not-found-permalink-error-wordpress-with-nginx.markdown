@@ -10,7 +10,7 @@ wordpress_id: 92
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 **Problem**: I cannot see posts. It shows "404 not found".

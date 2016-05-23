@@ -16,7 +16,7 @@ tags:
 - mint linux
 - sound
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Problem: Bluetooth headphone (LG HBS730 in my case) has been connected but does not displayed in the sound output device list.

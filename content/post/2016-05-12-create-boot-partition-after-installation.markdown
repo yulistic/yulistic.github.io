@@ -14,7 +14,7 @@ tags:
 - separate boot partition
 topics:
 - Linux
-- Problems &amp; Solutions
+- Issues
 ---
 
 # Problem

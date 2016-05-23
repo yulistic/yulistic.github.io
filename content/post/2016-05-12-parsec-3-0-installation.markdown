@@ -15,7 +15,7 @@ tags:
 - parsec 3.0
 - simulator
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 # 0. Refer to official site

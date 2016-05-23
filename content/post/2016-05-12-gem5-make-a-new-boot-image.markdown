@@ -10,7 +10,7 @@ wordpress_id: 230
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 - Tips
 ---
 

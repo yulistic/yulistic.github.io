@@ -14,7 +14,7 @@ tags:
 - SD card format
 - SD card partition
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 1. Find the name of the SD card. (ex> **_/dev/sdd_ in my case. You must enter your own SD card device name.**)

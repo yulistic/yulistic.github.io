@@ -10,7 +10,7 @@ wordpress_id: 114
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Problem: 와인으로 돌린 카카오톡의 한글이 ㅁㅁㅁㅁㅁㅁㅁ 이런 식으로 깨짐. 우선 시스템 language를 korean으로 바꾸면, 한글이 잘 표시되나, english로 했을 경우에는 깨짐.

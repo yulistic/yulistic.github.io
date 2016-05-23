@@ -10,7 +10,7 @@ wordpress_id: 251
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 # 1. Problem

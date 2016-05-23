@@ -14,7 +14,7 @@ tags:
 - zlib
 topics:
 - Linux
-- Problems &amp; Solutions
+- Issues
 ---
 
 # 1. Purpose

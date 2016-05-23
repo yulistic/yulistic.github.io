@@ -10,7 +10,7 @@ wordpress_id: 88
 language:
 - English
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Problem: To install _wordpress_ based on the _mysql_ database system and _nginx_ web server.

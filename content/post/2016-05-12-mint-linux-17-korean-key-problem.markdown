@@ -13,7 +13,7 @@ tags:
 - linux
 - mint
 topics:
-- Problems &amp; Solutions
+- Issues
 ---
 
 Mint Linux 17 한영키 문제
