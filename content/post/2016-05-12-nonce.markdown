@@ -1,0 +1,24 @@
+---
+author: yulistic
+comments: true
+date: 2016-05-12 06:49:06+00:00
+layout: post
+link: http://yulistic.com/?p=74
+slug: nonce
+title: Nonce
+wordpress_id: 74
+language:
+- English
+topics:
+- Security
+---
+
+Nonce is used to check data is the most recent one.
+
+Nonce is a randomly generated number when there is some modification.
+
+![File:Nonce-cnonce-uml.svg](http://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Nonce-cnonce-uml.svg/345px-Nonce-cnonce-uml.svg.png)
+
+The figure above (reference: wikipedia) describes an example of usage of nonce in client-server authentication. As seen in the figure, there are two nonces: a server nonce and a client nonce ( = cnonce).
+
+

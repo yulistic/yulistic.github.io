@@ -1,0 +1,122 @@
+---
+author: yulistic
+comments: true
+date: 2016-05-12 06:49:06+00:00
+layout: post
+link: http://yulistic.com/?p=143
+slug: vim-tips
+title: Vim tips
+wordpress_id: 143
+language:
+- English
+topics:
+- Tips
+---
+
+
+	
+  1. divide window
+
+	
+    * [Ctrl] + w  v => split vertically.
+
+	
+    * [Ctrl] + w  s => split horizontally.
+
+	
+    * :vs filename => split vertically and open file.
+
+	
+    * :sp filename => split horizontally and ope file.
+
+	
+    * :qa close all windows.
+
+	
+    * (in shell) vim -o txt.a txt.b => open txt.a and txt.b in two windows split horizontally.
+
+	
+    * (in shell) vim -O txt.a txt.b => open txt.a and txt.b in two windows split vertically.
+
+
+
+
+	
+  2. tab
+
+	
+    * :tabnew filename => open file in a new tab.
+
+	
+    * [Ctrl] + [Page Up/Down] => move to the other tab.
+
+	
+    * :tabn => go to next tab.
+
+	
+    * :tabp => go to previous tab.
+
+	
+    * (in shell) vim -p txt.a txt.b txt.c => open txt.a, txt.b, and txt.c in three respective tabs.
+
+
+
+
+	
+  3. go to file
+
+	
+    * gf => go to file under the cursor.
+
+	
+    * [Ctrl] + ^ => go back to the previous file.
+
+	
+    * :find filename => find and go to the file.
+
+	
+    * :tabf filename => find and open the file in a new tab.
+
+
+
+
+	
+  4. Plug-ins
+
+	
+    1. Auto Close([link](http://www.vim.org/scripts/script.php?script_id=1849)): Insert parentheses automatically.
+
+	
+      * Install: Download autoclose.vim from web site and save into ~/.vim/plugin directory.
+
+
+
+
+	
+    2. NERD commenter([link](http://www.vim.org/scripts/script.php?script_id=1218)): Toggle comment.
+
+	
+      * Install: Download file, unzip and move it to ~/.vim directory(~/.vim/doc and ~/.vim/plugin).
+
+	
+      * Usage:
+
+	
+        1. Select lines with visual block
+
+	
+        2. [] + c + [Space] : Toggle comment.
+
+	
+        3. [] + c + [a] : Change comment style (e.g. "/* */" <-> "//")
+
+
+
+
+
+
+
+
+
+
+
