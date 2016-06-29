@@ -60,7 +60,7 @@
 	highlight = "default"
 
 # Google Analytics.
-	googleAnalytics = "Your Google Analytics tracking code"
+	googleAnalytics = "UA-42983013-1"
 #gravatarHash = "d2da470451f74ec97d7aa44756087937"
 
 # Sidebar social links.
