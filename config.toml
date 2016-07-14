@@ -43,9 +43,9 @@
 [params]
 # You can use markdown here.
 #brand = "slow<i class='fa fa-star'></i> steady"
-	brand = "slow & steady"
+	brand = "Slow & Steady"
 	topline = "It's just yulistic!"
-	footline = "code with <i class='fa fa-heart'></i>"
+	footline = "With all my heart <i class='fa fa-heart'></i>"
 
 # Sidebar position
 # false, true, "left", "right"
