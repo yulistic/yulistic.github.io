@@ -16,7 +16,8 @@ Research Group : [Computer Architecture Lab.](http://calab.kaist.ac.kr)
 
 _4418 E3, KAIST, 291 Daehak-ro, Yuseong-gu,_  
 _Daejeon 34141, Republic of Korea_  
-<a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> 
+<!--<a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
+<a href="https://map.what3words.com/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> 
 
 
 ##### Contact : 
