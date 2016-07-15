@@ -4,6 +4,13 @@
 {{ "<!--[if IE 8]>" | safeHTML }} <html class="no-js lt-ie9"> {{ "<![endif]-->" | safeHTML }}
 {{ "<!--[if gt IE 8]><!-->" | safeHTML }} <html class="no-js"> {{ "<!--<![endif]-->" | safeHTML }}
 <head>
+  <!--Added for https redirection. JYKIM. -->
+  <script type="text/javascript">
+  var loc = window.location.href+'';
+  if (window.location.hostname!='localhost' && loc.indexOf('http://')==0){
+      window.location.href = loc.replace('http://','https://');
+	  }
+  </script>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ partial "base/metas" . }}
