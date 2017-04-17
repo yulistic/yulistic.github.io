@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:06+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=118
 slug: mint-linux-samba-client-connection
 title: '[Mint Linux] Samba client connection to Windows samba server'

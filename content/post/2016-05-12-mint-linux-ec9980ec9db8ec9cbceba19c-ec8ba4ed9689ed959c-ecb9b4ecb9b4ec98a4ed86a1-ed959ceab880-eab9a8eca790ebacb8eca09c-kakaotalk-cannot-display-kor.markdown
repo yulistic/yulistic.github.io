@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:06+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=114
 slug: mint-linux-%ec%99%80%ec%9d%b8%ec%9c%bc%eb%a1%9c-%ec%8b%a4%ed%96%89%ed%95%9c-%ec%b9%b4%ec%b9%b4%ec%98%a4%ed%86%a1-%ed%95%9c%ea%b8%80-%ea%b9%a8%ec%a7%90%eb%ac%b8%ec%a0%9c-kakaotalk-cannot-display-kor
 title: '[Mint Linux] 와인으로 실행한 카카오톡 한글 깨짐문제 (KakaoTalk cannot display Korean characters.)'

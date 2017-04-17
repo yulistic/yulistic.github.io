@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:06+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=130
 slug: mint-linux-bluetooth-headphone-connection-problem
 title: Mint Linux Bluetooth headphone connection problem

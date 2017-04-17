@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:07+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=361
 slug: live-bootable-usb-for-ubuntu-10-04-04
 title: Live Bootable USB for Ubuntu 10.04.04

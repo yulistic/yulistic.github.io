@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:07+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=284
 slug: linux-login-ssh-without-password-input
 title: '[Linux] Login SSH without password input'

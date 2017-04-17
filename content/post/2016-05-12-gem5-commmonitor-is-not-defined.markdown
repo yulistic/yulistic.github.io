@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:07+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=251
 slug: gem5-commmonitor-is-not-defined
 title: '[Gem5] CommMonitor is not defined'

@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:07+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=401
 slug: install-btrfs-prog-on-ubuntu-10-04-from-source
 title: Install btrfs-prog on Ubuntu 10.04 from source

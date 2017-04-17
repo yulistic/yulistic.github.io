@@ -2,7 +2,7 @@
 author: yulistic
 comments: true
 date: 2016-05-12 06:49:07+00:00
-layout: post
+type: post
 link: http://yulistic.com/?p=199
 slug: libtool-version-mismatch-error
 title: libtool version mismatch error
