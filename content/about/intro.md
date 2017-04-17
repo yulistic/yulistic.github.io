@@ -2,7 +2,7 @@
 author: yulistic
 comments: false
 date: 2016-05-12 06:49:06+00:00
-layout: page
+type: page
 slug: intro
 title: 
 language:
