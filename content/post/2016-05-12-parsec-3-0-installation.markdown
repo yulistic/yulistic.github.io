@@ -12,7 +12,6 @@ language:
 tags:
 - installation
 - parsec
-- parsec 3.0
 - simulator
 topics:
 - Issues
