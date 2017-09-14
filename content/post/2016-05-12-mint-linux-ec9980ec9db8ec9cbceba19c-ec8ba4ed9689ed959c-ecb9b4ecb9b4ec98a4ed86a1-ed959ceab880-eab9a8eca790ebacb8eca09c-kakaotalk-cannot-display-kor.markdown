@@ -22,7 +22,7 @@ Mint Linux 17, Wine 1.7, System language (locale) = english
 
 # Solution
 카카오톡의 프로그램만 korean locale로 실행되도록 한다.  
-Configure KakaoTalk runs in Korean locale.
+Configure KakaoTalk to be run in Korean locale.
 
 카카오톡 실행아이콘을 텍스트편집기로 연 후, `Exec` 부분에 `env LANG=ko_KR.UTF-8`를 추가해준다. (command 앞 뒤로 한칸의 공백이 있어야 하며, wine command 앞에 위치해야 함)  
 Open KakaoTalk icon with text editer (vi), add `env LANG=ko_KR.UTF-8` to `Exec` field. (Each command in `Exec` field should be separated with space. The command being inserted should be located before 'wine ~~~' command.)
