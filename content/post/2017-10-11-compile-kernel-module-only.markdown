@@ -74,6 +74,6 @@ The path is different from the originally built one (when compiling the whole ke
 If you want to install a new module into the same location of original one, use `INSTALL_MOD_DIR` option. Example follows.
 
 ```lang=shell
-sudo make INSTALL_MOD_DIR=kernel/arch/x86/kvm M=arch/x86/kvm
+sudo make INSTALL_MOD_DIR=kernel/arch/x86/kvm M=arch/x86/kvm modules_install
 ```
 Note that you have to do `sudo depmod -a` before `modprobe` the new modules. Otherwise, `modprobe` will fail.
