@@ -14,40 +14,32 @@ topics:
 - Tips
 ---
 
-# Intro
+# 0. Intro
+
+I wanted to run a PARSEC 3.0 benchmark on a Gem5 full system simulator.
+Because the size of compiled PARSEC 3.0 benchmark was too large (about 10GB), the original full system disk image provided by Gem5 official site could not be used.
+
+At first, I tried to mount a secondary disk image that contains benchmark files after Gem5's full system was booted.
+I expected that, in this way, I could use the boot image (uploaded in the Gem5 official website) as it is mounting/unmounting several other benchmark images as my wishes.
+
+However, unfortunately, I could not figure out the way of doing that. So, I chose the other way: making a new boot image including compiled benchmark files.
 
 
-I wanted to run a PARSEC 3.0 benchmark on Gem5 full system simulator. The original full system disk image provided by Gem5 official site could not be used as it is because the size of compiled PARSEC 3.0 benchmark was too large (about 10GB).
-
-At first, I tried to mount a secondary disk image that contains benchmark files after Gem5's full system was booted. In this way, I can use the boot image (uploaded in the Gem5 official website) as it is and mount/unmount several other benchmark images as my wishes.
-
-Unfortunately, I could not find the way opened in the internet. So, I chose the other way: make a new boot image including compiled benchmark files.
-
-
-# Problem
-
+# 1. Problem
 
 Require larger boot image of Gem5 full system simluator so that it can contain the benchmark files.
 
 
-# Background
+# 2. Background (Prerequisites)
 
-
-
-
-## Gem5
-
+## 2.1 Gem5
 
 It is assumed that you have already succeeded to boot a full system of Gem5 with following command in the Gem5 root directory.
 
-    
     $ ./build/X86/gem5.opt configs/example/fs.py
 
 
-
-
-## Commands
-
+## 2.2 Commands
 
 It is recommend to learn the role of following commands.
 
@@ -64,19 +56,13 @@ It is recommend to learn the role of following commands.
 `mke2fs`
 
 
-# Solution
+# 3. Solution
 
-
-
-
-## 1. Make a new img file
-
+## 3.1 Make a new img file
 
 Make a new image file with `dd` command. The output file will be filled with zeros. Here is an example.
-
     
     $ dd if=/dev/zero of=parsec3.img bs=1M count=12288
-
 
 `if`: input file. In this example `zero`.
 
@@ -98,13 +84,12 @@ You can confirm that a new file has been successfully created with `ls -alh` com
 
 
 
-## 2. Partitioning
+## 3.2 Partitioning
 
 
-After making a new image file being filled with zeroes, the file should have a partition. You can use any partition programs. `fdisk` is used here.
+The new image file filled with zeroes needs to be partitioned. You can use any partition programs. `fdisk` is used here.
 
 First, let's check the current status of image file.
-
     
     $ fdisk -l parsec3.img 
     
@@ -196,35 +181,29 @@ You can confirm that the partition has been created as below.
 
 
 
-## 3. Formatting
+## 3.3 Formatting
 
 
-Next, we need to format the partition. To make a virtual disk with image file, loop device will be used (losetup).
+Next, we need to format the partition. To make a virtual disk with image file, loop device will be used (`losetup`).
 
-First, it is required to know the starting point of the partition. Again with the following command, you can figure out the start position of the partition.
+First, it is required to know the starting point of the partition. Again with the following command, you can figure out the starting position of the partition.
 
     
     $ fdisk -l parsec3.img
-
-
-
     
     ...
           Device Boot      Start         End      Blocks   Id  System
     parsec3.img1            2048    25165823    12581888   83  Linux
     
-
-
 We can check that the starting position of the partition is 2048.
 
-Second, find an available loop device.
-
+Second, find the available loop device.
     
     $ sudo losetup -f
     /dev/loop0
 
 
-Third, create virtual disk using loop device.
+Third, create a virtual disk using loop device.
 
     
     $ sudo losetup -o $((512*2048)) /dev/loop0 parsec3.img
@@ -236,7 +215,7 @@ Fourth, use `mke2fs` command to format the partition as ext2.
     $ sudo mke2fs /dev/loop0
 
 
-Last,  detach loop device.
+Last, detach loop device.
 
     
     $ sudo losetup -d /dev/loop0
@@ -244,7 +223,7 @@ Last,  detach loop device.
 
 
 
-## 4. Copy benchmark files to image file
+## 3.4 Copy benchmark files to the image file
 
 
 Mount your image file.
@@ -272,10 +251,10 @@ If you used loop device for mounting, you should detach loop device after use.
 
 
 
-## 5. Boot Gem5 full system simulator
+## 3.5 Boot the Gem5 full system simulator with the created image file
 
 
-Boot with your new image and run benchmark on Gem5 full system simulator.
+Boot with your new image and run benchmarks on Gem5 full system simulator.
 
     
     $ ./build/X86/gem5.opt configs/example/fs.py --disk-image=path/to/your/imagefile/parsec3.img
