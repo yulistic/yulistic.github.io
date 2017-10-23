@@ -28,7 +28,8 @@ Let's make a root(`/`) partition except `/boot` directory be `btrfs`. `btrfs` su
 For the reason of excepting `/boot` partition, the Ubuntu document warns against including _Grub_ into `btrfs` partition.
 
 
-<blockquote>... As of 11.04, it is possible to use only btrfs file systems with the caveat that grub 'MUST NOT' be installed to the boot sector of the btrfs volume containing /boot. (from [link](https://help.ubuntu.com/community/btrfs))</blockquote>
+>... As of 11.04, it is possible to use only btrfs file systems with the caveat that grub 'MUST NOT' be installed to the boot sector of the btrfs volume containing /boot.  
+([link](https://help.ubuntu.com/community/btrfs))
 
 
 As a result, I decided to make the `/boot` partition be separated from the root(`/`) partition.
@@ -91,7 +92,7 @@ You might fail to install `btrfs-tools` because `apt-get` cannot find the packag
 
 **Updated**
 
-It is recommended to use an updated version of `btrfs-tools`. You can get `[btrfs-tools_0.19+20100601-3ubuntu3_amd64.deb](http://ftp.acc.umu.se/ubuntu/pool/main/b/btrfs-tools/btrfs-tools_0.19+20100601-3ubuntu3_amd64.deb) `from [link](http://ftp.acc.umu.se/ubuntu/pool/main/b/btrfs-tools/) and install as below.
+It is recommended to use an updated version of `btrfs-tools`. You can get [`btrfs-tools_0.19+20100601-3ubuntu3_amd64.deb`](http://ftp.acc.umu.se/ubuntu/pool/main/b/btrfs-tools/btrfs-tools_0.19+20100601-3ubuntu3_amd64.deb) from [link](http://ftp.acc.umu.se/ubuntu/pool/main/b/btrfs-tools/) and install as below.
 
     
     sudo dpkg -i btrfs-tools_0.19+20100601-3ubuntu3_amd64.deb
