@@ -16,8 +16,8 @@ Sometimes, it did not work well and mappings should be changed whenever my keybo
 I wanted to change the mapping in the lower level.
 `udev` gave me a solution.
 
-_**Reference:**     
-[https://wiki.archlinux.org/index.php/xmodmap](https://wiki.archlinux.org/index.php/xmodmap)_
+**_Reference:_**     
+*[AtchLinux - Map scancodes to keycodes](https://wiki.archlinux.org/index.php/Map_scancodes_to_keycodes)*
 
 # 1. Find your device
 First, you need to find your keyboard device. I used my usb keyboard(HHKB).
