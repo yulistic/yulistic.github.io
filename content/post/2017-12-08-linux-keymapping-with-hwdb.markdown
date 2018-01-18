@@ -5,7 +5,7 @@ description = "USB keyboard key mapping with udev hwdb."
 draft = false
 tags = ["linux","usb keyboard", "key mapping", "hwdb", "udev"]
 title = "Linux keymapping with udev hwdb"
-topics = ["linux", "tip"]
+topics = ["linux", "tips"]
 type = "post"
 
 +++
