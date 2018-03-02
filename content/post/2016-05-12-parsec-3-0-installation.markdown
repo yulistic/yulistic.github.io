@@ -136,20 +136,12 @@ Comment out the declaration of `__mbstate_t` in parsec library:  `[parsec_root_
     106 //#endif 
     
 
+---
+
+### --- Appended. November 4, 2015 ---
 
 
-
-
-<blockquote>
-
-> 
-> # ------------- Appended. November 4, 2015 ----------------
-> 
-> 
-</blockquote>
-
-
-According to the comment from Shwartz, following packages are needed to be installed on Ubuntu 14.04.1.
+> According to the comment from Shwartz, following packages are required on Ubuntu 14.04.1.
 
     
     sudo apt-get install -y build-essential m4 x11proto-xext-dev libglu1-mesa-dev libxi-dev libxmu-dev libtbb-dev
