@@ -1,9 +1,9 @@
 +++
 author = "yulistic"
 date = "2018-03-04T15:14:55+09:00"
-description = "Introduce a root partition migration to different storage (HDD or SSD) with Live CD."
-tags = ["linux","Ubuntu","partition"]
-title = "Replace HDD or SSD without re-installing of Ubuntu"
+description = "Introduce a root partition migration to different storage (HDD or SSD) with Live USB."
+tags = ["linux","Ubuntu","copy partition", "partition migration"]
+title = "Replace HDD or SSD without the re-installation of Ubuntu"
 topics = ["tips"]
 type = "post"
 
@@ -17,6 +17,8 @@ I tried to replace the HDD in my Ubuntu PC with a new SSD for the performance im
 [2] [Change UUID of a partition](https://askubuntu.com/questions/132079/how-do-i-change-uuid-of-a-disk-to-whatever-i-want)
 
 # Solution
+
+#### **_Please backup your data before starting the following processes._**
 It is assumed that you have already installed a new storage HW into your PC. Also, Ubuntu live USB is required.
 
 __1. Boot with the Ubuntu live USB.__  
