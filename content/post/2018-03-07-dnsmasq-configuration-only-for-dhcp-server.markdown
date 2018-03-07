@@ -59,7 +59,7 @@ To configure my own DHCP server with `dnsmasq` on my Ubuntu PC. A commercial rou
 3. (Re)start dnsmasq service. You can check status of dnsmasq with `systemctl` command.
     ```
     sudo service dnsmasq restart
-    sudo systemctl status dnsmasq
+    sudo systemctl status dnsmasq.service
     ```
 
 4. Also you need to set the `dnsmasq` server ip. My network interface name was `enp5s0`. Set it as yours.
@@ -97,7 +97,7 @@ Also, the server address was set to `192.168.0.10` in the following example.
 
 3. To read logs when the log file is not set in the configuration file.
     ```
-    sudo systemctl -u dnsmasq.service
+    sudo journalctl -u dnsmasq.service
     ```
 
 4. To test the configuration.
