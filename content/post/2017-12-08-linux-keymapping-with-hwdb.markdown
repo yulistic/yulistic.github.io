@@ -92,7 +92,7 @@ Format:
  KEYBOARD_KEY_<scan_code>=<key_code>
 ```
 `<scan_code>` is the value we got with `evtest` and `<key_code>` is the **lowercase name string** of the key to be mapped.
-You can get the `<key_code>` information in the file `/usr/include/linux/input_event_codes.h` (variables are namded as `KEY_<key code>`).  
+You can get the `<key_code>` information in the file `/usr/include/linux/input-event-codes.h` (variables are namded as `KEY_<key code>`).  
 `evtest` also shows the whole key mapping information as below.
 ```
 Supported events:
@@ -141,7 +141,10 @@ sudo udevadm trigger
 Just check the key works as you wanted, or
 ```
 udevadm info /dev/input/by-path/*-usb-*-kbd | grep KEYBOARD_KEY
+
+or
+udevadm info /dev/input/eventX | grep KEYBOARD_KEY
 ```
-will show the applied key mappings.
+will show the applied key mappings. `eventX` should be yours.
 
 Done.
