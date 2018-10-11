@@ -13,5 +13,7 @@ Here are the lists of applications that I prefer.
 # Manjaro
 * screenshot(screen capture): `flameshot`, `gnome-screenshot`
 * tiling window manager: `i3wm`
+* pdf-viewer: `zathura` with `mupdf` plugin (vim-like shortcuts)
+* academic paper management: `mendeley` (easy to share, multi-platform)
 
 The list will be updated continually.
