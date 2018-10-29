@@ -10,6 +10,9 @@ draft: false
 
 Here are the lists of applications that I prefer. 
 
+# Common
+* git commit log visualization: `tig`
+
 # Manjaro
 * screenshot(screen capture): `flameshot`, `gnome-screenshot`
 * tiling window manager: `i3wm`
