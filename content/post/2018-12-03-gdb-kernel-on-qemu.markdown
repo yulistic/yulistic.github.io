@@ -59,3 +59,17 @@ After type `c`, qemu continues to run and break at the `start_kernel` breakpoint
 # Other issues
 * `gdb` does not find the source directory.
  * Use `dir /src/dir/path` command. (Not tested.)
+* Change optimization options of a kernel compilation to eliminate any confusion while tracking the code with gdb.
+ * Set `-Og` options for the files. As below example.
+```
+# Added to mm/Makefile for debugging.
+CFLAGS_ksm.o = -Og
+CFLAGS_huge_memory.o = -Og
+CFLAGS_memory.o = -Og
+CFLAGS_migrate.o = -Og
+CFLAGS_page_alloc.o = -Og
+```
+
+# References
+* https://wiki.osdev.org/Kernel_Debugging
+* https://gist.github.com/hngouveia01/843a2202628c7d567dad0f657f8373aa
