@@ -36,4 +36,4 @@ _Daejeon 34141, Republic of Korea_
 
 ### Projects
 * [UX-oriented Mobile SW Platform](http://mplatform.kaist.ac.kr), (2013.04-2016.08)
-* New Cloud System Design combining Virtualized Cloud and Bare-metal Cloud, (2016.06-)
+* New Cloud System Design combining Virtualized Cloud and Bare-metal Cloud, (2016.06-2019.05)
