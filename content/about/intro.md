@@ -30,8 +30,9 @@ _Daejeon 34141, Republic of Korea_
 
 ---
 ### Research Interests
-* System Software
-* Process Scheduling
+* System software
+* Distributed file system
+* SmartNIC
 * Virtualization
 
 ### Projects
