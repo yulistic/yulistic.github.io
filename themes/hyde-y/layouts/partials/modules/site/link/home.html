@@ -1,4 +1,6 @@
 {{ $baseurl := .Site.BaseURL }}
 {{ with .Site.Params.home }}
-<a class="homelink" href="{{ $baseurl }}">{{ . }}</a>
+<!-- Make About page to be home. -->
+<!-- <a class="homelink" href="{{ $baseurl }}">{{ . }}</a> -->
+<a class="homelink" href="{{ $baseurl }}/about/intro">{{ . }}</a>
 {{ end }}
