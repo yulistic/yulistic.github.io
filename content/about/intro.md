@@ -20,7 +20,7 @@ _Daejeon 34141, Republic of Korea_
 <a href="https://map.what3words.com/snappy.smaller.wants" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/snappy.smaller.wants/dark" alt="" width="100" /></a>
 
 ##### Contact : 
-[<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  yulistic <i class="fa fa-at" aria-hidden="true"></i> gmail.com] (mailto:yulistic@gmail.com)
+[<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  yulistic <i class="fa fa-at" aria-hidden="true"></i> kaist.ac.kr] (mailto:yulistic@kaist.ac.kr)
 
 <!--<a id="contact-link-email" class="contact_link" href="mailto:yulistic@gmail.com" style="font-size:30px">-->
   <!--<span class="fa fa-envelope-square" aria-hidden="true"></span></a>-->
