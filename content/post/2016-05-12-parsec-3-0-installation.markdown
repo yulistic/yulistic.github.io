@@ -34,7 +34,7 @@ topics:
 
 Error message is like below.
 
-    
+```
     installing man1/smime.1
     smime.pod around line 272: Expected text after =item, not a number
     smime.pod around line 276: Expected text after =item, not a number
@@ -43,7 +43,7 @@ Error message is like below.
     smime.pod around line 289: Expected text after =item, not a number
     POD document had syntax errors at /usr/bin/pod2man line 71.
     make: *** [install_docs] Error 255
-    
+```
 
 
 Modify files:
@@ -56,7 +56,7 @@ Change `=item 0 `to `=item C<0>`
 
 (Also other numbers as below.)
 
-    
+```
     268 =item C<0>
     269 
     270 the operation was completely successfully.
@@ -82,19 +82,18 @@ Change `=item 0 `to `=item C<0>`
     290 
     291 the message was verified correctly but an error occurred writing out
     292 the signers certificates.
-    
+```
 
 
-You can use following shell script. (in root directory of the benchmarks)
-
-    
+You can use the following shell script. (in the root directory of the benchmark)
+```
     #! /bin/bash
-    for i in 0 1 2 3 4 5 6 7 8 9 
+    for i in 0 1 2 3 4 5 6 7 8 9
     do
         echo "Replacing '=item $i' to '=item C<$i>'"
         grep -rl "=item $i" * | xargs sed -i "s/=item $i/=item C<$i>/g"
     done
-
+```
 
 
 
@@ -104,7 +103,7 @@ You can use following shell script. (in root directory of the benchmarks)
 
 Error message is like below.
 
-    
+```
     /usr/include/wchar.h:94:3: error: conflicting types for ‘__mbstate_t’
      } __mbstate_t;
        ^
@@ -114,7 +113,7 @@ Error message is like below.
                      from if_host.c:48:
     ../include/sys/bsd__types.h:105:3: note: previous declaration of ‘__mbstate_t’ was here
      } __mbstate_t;
-    
+```
 
 
 It is because of conflict between system declaration and parsec library.
@@ -122,7 +121,7 @@ It is because of conflict between system declaration and parsec library.
 Comment out the declaration of `__mbstate_t` in parsec library:  `[parsec_root_dir]/pkgs/libs/uptcpip/src/include/sys/bsd__types.h
 `(not `bsd_types.h`)
 
-    
+```
      96 /*
      97  * mbstate_t is an opaque object to keep conversion state during multibyte
      98  * stream conversions.
@@ -134,17 +133,28 @@ Comment out the declaration of `__mbstate_t` in parsec library:  `[parsec_root_
     104     //__int64_t _mbstateL;  [> for alignment <]
     105 //} __mbstate_t;
     106 //#endif 
-    
+```
 
 ---
 
-### --- Appended. November 4, 2015 ---
+### --- Added. November 4, 2015 ---
 
 
 > According to the comment from Shwartz, following packages are required on Ubuntu 14.04.1.
 
-    
+```
     sudo apt-get install -y build-essential m4 x11proto-xext-dev libglu1-mesa-dev libxi-dev libxmu-dev libtbb-dev
+```
 
+### --- Added. Mar 31, 2020 ---
 
+* `gcc` and `g++` version 4.8 was used for compilation in Ubuntu 18.04.
 
+# 4. `HUGE` undeclared error while building `ferret`
+
+`HUGE` is replaced to `DBL_MAX`. Replace all `HUGE`s in ferret source code to `DBL_MAX`. You might want the following script. Run it in the root directory of the benchmark.
+```
+# Fix HUGE related error.
+grep -rl "HUGE" pkgs/apps/ferret | xargs sed -i "s/HUGE/DBL_MAX/g"
+grep -rl "HUGE" pkgs/netapps/netferret | xargs sed -i "s/HUGE/DBL_MAX/g"
+```
