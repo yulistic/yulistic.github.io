@@ -2,18 +2,18 @@
 	Name = "About"
 	URL = "/about/intro"
 
-[posts]
-	Name = "Posts"
-	Title = "Show list of posts"
-	URL = "/post"
-
+#[posts]
+#	Name = "Posts"
+#	Title = "Show list of posts"
+#	URL = "/post"
+#
 [topics]
-	Name = "Topics"
-	Title = "Show list of topics"
+#Name = "Topics"
+	Name = "Posts"
+	Title = "Show list of topics and posts"
 	URL = "/topics"
 
-[tags]
-	Name = "Tags"
-	Title = "Show list of tags"
-	URL = "/tags"
-
+#[tags]
+#	Name = "Tags"
+#	Title = "Show list of tags"
+#	URL = "/tags"
