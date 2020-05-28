@@ -5,7 +5,7 @@
 	title = "Yulistic.com"
 
 # Copyright
-	copyright = "(c) 2016 Jongyul Kim."
+#	copyright = "(c) 2016 Jongyul Kim."
 
 # Language
 	languageCode = "en-EN"
@@ -45,7 +45,7 @@
 #brand = "slow<i class='fa fa-star'></i> steady"
 	brand = "Slow & Steady"
 	topline = "It's just yulistic!"
-	footline = "With all my heart <i class='fa fa-heart'></i>"
+#footline = "With all my heart <i class='fa fa-heart'></i>"
 
 # Sidebar position
 # false, true, "left", "right"
