@@ -68,7 +68,7 @@
 	bitbucket = "yulistic" # Your Bitbucket profile ID
 	linkedin = "" # Your LinkedIn profile ID (from public URL)
 	googleplus = "" # Your Google+ profile ID
-	facebook = "yulistic" # Your Facebook profile ID
+	facebook = "" # Your Facebook profile ID
 	twitter = "" # Your Twitter profile ID
 	youtube = ""  # Your Youtube channel ID
 	flattr = ""  # populate with your flattr uid
