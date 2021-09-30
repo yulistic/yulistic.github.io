@@ -10,8 +10,8 @@ language:
 ---
 
 ## Jongyul Kim
-
-<img src="../../resources/images/jongyul.jpg" alt="drawing" width="200"/>
+![Hi! I'm Jongyul.](/static/img/jongyul.jpg)
+<img src="/static/img/jongyul.jpg" alt="drawing" width="200"/>
 
 The integrated master's/doctoral program in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
 Research Group : [Computer Architecture and Systems Lab.](http://casys.kaist.ac.kr)
