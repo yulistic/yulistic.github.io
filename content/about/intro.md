@@ -39,13 +39,13 @@ _Daejeon 34141, Republic of Korea_
 
 #### Conference papers
 
-* SOSP 2021. **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism.".
-* OSDI 2020. Anderson, Thomas E., Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter,Waleed Reda, Henry N. Schuh, and Emmett Witchel. "Assise: Performance and Availability via Client-local NVM in a Distributed File System".
-* SoCC 2017. Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. "On-demandvirtualization for live migration in bare metal cloud".
+* SOSP 2021. **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *"LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism"*.
+* OSDI 2020. Anderson, Thomas E., Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"Assise: Performance and Availability via Client-local NVM in a Distributed File System"*.
+* SoCC 2017. Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *"On-demand virtualization for live migration in bare metal cloud"*.
 
 #### Workshop papers
 
-* NVMW 2021. Anderson, Thomas E., Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. "Assise: Performance and Availability via Client-local NVM in a Distributed File System". Memorable Paper Award Finalists.
+* NVMW 2021. Anderson, Thomas E., Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"Assise: Performance and Availability via Client-local NVM in a Distributed File System"*. Memorable Paper Award Finalists.
 
 ### Projects
 
