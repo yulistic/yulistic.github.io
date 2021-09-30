@@ -11,9 +11,9 @@ language:
 
 ## Jongyul Kim
 
-![Hi! I'm Jongyul.](/img/jongyul.jpg)
+<!-- ![Hi! I'm Jongyul.](/img/jongyul.jpg) -->
 
-<img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
+<img src="https://yulistic.gitlab.io/img/jongyul.jpeg" alt="drawing" width="200"/>
 
 The integrated master's/doctoral program in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
 Research Group : [Computer Architecture and Systems Lab.](http://casys.kaist.ac.kr)
