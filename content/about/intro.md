@@ -45,13 +45,13 @@ _Daejeon 34141, Republic of Korea_
 
 #### Conference papers
 
-* **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *"LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism"*. (SOSP 2021)
-* Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"Assise: Performance and Availability via Client-local NVM in a Distributed File System"*. Co-student author. (OSDI 2020)
-* Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *"On-demand virtualization for live migration in bare metal cloud"*. (SoCC 2017)
+* **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *"[LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism]()"*. (SOSP 2021)
+* Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"[Assise: Performance and Availability via Client-local NVM in a Distributed File System](https://www.usenix.org/conference/osdi20/presentation/anderson)"*. Co-student author. (OSDI 2020)
+* Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *"[On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)"*. (SoCC 2017)
 
 #### Workshop papers
 
-* Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"Assise: Performance and Availability via Client-local NVM in a Distributed File System"*. Memorable Paper Award Finalists. (NVMW 2021)
+* Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *"[Assise: Performance and Availability via Client-local NVM in a Distributed File System](http://nvmw.ucsd.edu/program/#paper-29)"*. Memorable Paper Award Finalists. (NVMW 2021)
 
 ### Projects
 
