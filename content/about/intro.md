@@ -15,7 +15,7 @@ language:
 
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
-The postdoctoral researcher in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
+A postdoctoral researcher in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
 Research Group : [Computer Architecture and Systems Lab.](http://casys.kaist.ac.kr)
 
 _4422 E3, KAIST, 291 Daehak-ro, Yuseong-gu,_  
