@@ -15,10 +15,10 @@ language:
 
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
-The integrated master's/doctoral program in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
+The postdoctoral researcher in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
 Research Group : [Computer Architecture and Systems Lab.](http://casys.kaist.ac.kr)
 
-_4428 E3, KAIST, 291 Daehak-ro, Yuseong-gu,_  
+_4422 E3, KAIST, 291 Daehak-ro, Yuseong-gu,_  
 _Daejeon 34141, Republic of Korea_  
 <!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
 <a href="https://map.what3words.com/snappy.smaller.wants" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/snappy.smaller.wants/dark" alt="" width="100" /></a>
