@@ -51,6 +51,7 @@ _Daejeon 34141, Republic of Korea_
 
 #### Workshop papers
 
+* **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *[LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](http://nvmw.ucsd.edu/onlineprogram/#paper-32)*. (NVMW 2022)
 * Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *[Assise: Performance and Availability via Client-local NVM in a Distributed File System](http://nvmw.ucsd.edu/program/#paper-29)*. Memorable Paper Award Finalists. (NVMW 2021)
 
 ### Projects
