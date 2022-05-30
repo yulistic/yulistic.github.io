@@ -23,12 +23,8 @@ _Daejeon 34141, Republic of Korea_
 <!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
 <a href="https://map.what3words.com/snappy.smaller.wants" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/snappy.smaller.wants/dark" alt="" width="100" /></a>
 
-##### CV :
-
-[CV_jongyulkim.pdf](/files/CV_jongyulkim.pdf)
-##### Contact : 
-
-[<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  yulistic <i class="fa fa-at" aria-hidden="true"></i> kaist.ac.kr] (mailto:yulistic@kaist.ac.kr)
+##### CV : [CV_jongyulkim](/files/CV_jongyulkim.pdf)
+##### Contact : [<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  yulistic <i class="fa fa-at" aria-hidden="true"></i> kaist.ac.kr] (mailto:yulistic@kaist.ac.kr)
 
 <!--<a id="contact-link-email" class="contact_link" href="mailto:yulistic@gmail.com" style="font-size:30px">-->
   <!--<span class="fa fa-envelope-square" aria-hidden="true"></span></a>-->
