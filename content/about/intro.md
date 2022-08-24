@@ -46,7 +46,7 @@ _Daejeon 34141, Republic of Korea_
 
 * **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *[LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](http://nvmw.ucsd.edu/onlineprogram/#paper-32)*. (NVMW 2022)
 
-* **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *[LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](https://dl.acm.org/doi/10.1145/3477132.3483565)*. **Best paper award.** (SOSP 2021) [<i class="fa fa-file-powerpoint"></i> slides](/files/LineFS_slides_20min.ppsx)
+* **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. *[LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](https://dl.acm.org/doi/10.1145/3477132.3483565)*. **Best paper award.** (SOSP 2021) [<i class="fa fa-file"></i> slides](/files/LineFS_slides_20min.ppsx)
 
 * Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *[Assise: Performance and Availability via Client-local NVM in a Distributed File System](http://nvmw.ucsd.edu/program/#paper-29)*. Memorable Paper Award Finalists. (NVMW 2021)
 
