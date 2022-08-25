@@ -55,11 +55,34 @@ _Daejeon 34141, Republic of Korea_
 * Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *[On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)*. (SoCC 2017)
 
 
-{{< table "/assets/data/publications.csv" >}}
+### Conference and Workshop Papers
+
+- [NVMW 2022] [LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](http://nvmw.ucsd.edu/onlineprogram/#paper-32)
+  - **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel.
+
+- [SOSP 2021] [LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](https://dl.acm.org/doi/10.1145/3477132.3483565) [<i class="fa fa-file" title="slides"></i>](/files/LineFS_slides_20min.ppsx)
+  - **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. **`Best paper award`**.
+
+- [NVMW 2021] [Assise: Performance and Availability via Client-local NVM in a Distributed File System](http://nvmw.ucsd.edu/program/#paper-29)
+  - Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Memorable Paper Award Finalists*.
+
+- [OSDI 2020] [Assise: Performance and Availability via Client-local NVM in a Distributed File System](https://www.usenix.org/conference/osdi20/presentation/anderson)
+  -  Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Co-student author*.
+
+- [SoCC 2017] [On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)
+  - Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng.
+
+### Journal Papers
+
+- [On-demand Virtualization for Post-copy OS Migration in Bare-metal Cloud](https://ieeexplore.ieee.org/document/9786612)
+  - Jaeseong Im, Jongyul Kim, Youngjin Kwon, Seungryoul Maeng. IEEE Transactions on Cloud Computing, June 2022. *Impact factor: 5.938*
 
 
-### Projects
+<!-- Table version. -->
+<!-- {{< table "/assets/data/publications.csv" >}} -->
+
+<!-- ### Projects
 
 * Efficient and Scalable Distributed File System Leveraging Emerging HW Technology, (2020.03 - 2023.02)
 * New Cloud System Design combining Virtualized Cloud and Bare-metal Cloud, (2016.06 - 2019.05)
-* UX-oriented Mobile SW Platform, (2013.04 - 2016.08)
+* UX-oriented Mobile SW Platform, (2013.04 - 2016.08) -->
