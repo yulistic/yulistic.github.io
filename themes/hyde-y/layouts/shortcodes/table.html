@@ -1,0 +1,35 @@
+{{ $url := .Get 0 }}
+{{ $sep := "," }}
+{{ $dataFile := getCSV $sep $url }}
+{{ $.Scratch.Set "count" 0 }}
+
+<style>
+	table th:first-of-type {
+	    width: 30%;
+	}
+	table th:nth-of-type(2) {
+	    width: 30%;
+	}
+	table th:nth-of-type(3) {
+	    width: 10%;
+	}
+	table th:nth-of-type(4) {
+	    width: 10%;
+	}
+	</style>
+
+<table>
+	{{ range $row := $dataFile }}  
+	    <tr>
+		{{ range $col := $row }}
+			{{ if eq 0 ($.Scratch.Get "count") }}
+				<th>{{ . }}</th>
+			{{ else }}
+				<td>{{ . }}</td>
+			{{ end }}
+		{{ end }}
+	    </tr>
+	    {{ $.Scratch.Add "count" 1 }}
+	{{ end }}
+    </table>
+
