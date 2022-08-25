@@ -40,7 +40,7 @@ _Daejeon 34141, Republic of Korea_
 * SmartNIC
 * Virtualization
 
-### Publications
+<!-- ### Publications
 
 * Jaeseong Im, Jongyul Kim, Youngjin Kwon, Seungryoul Maeng. *[On-demand Virtualization for Post-copy OS Migration in Bare-metal Cloud](https://ieeexplore.ieee.org/document/9786612)*. IEEE Transactions on Cloud Computing. (2022)
 
@@ -52,7 +52,7 @@ _Daejeon 34141, Republic of Korea_
 
 * Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *[Assise: Performance and Availability via Client-local NVM in a Distributed File System](https://www.usenix.org/conference/osdi20/presentation/anderson)*. **Co-student author.** (OSDI 2020)
 
-* Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *[On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)*. (SoCC 2017)
+* Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng. *[On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)*. (SoCC 2017) -->
 
 
 ### Conference and Workshop Papers
