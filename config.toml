@@ -72,6 +72,7 @@
 	twitter = "" # Your Twitter profile ID
 	youtube = ""  # Your Youtube channel ID
 	flattr = ""  # populate with your flattr uid
+	orcid = "0000-0002-6877-0189" # ORCID ID
 
 [blackfriday]
 angledQuotes = true
