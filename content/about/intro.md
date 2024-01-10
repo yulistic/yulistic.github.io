@@ -15,7 +15,7 @@ language:
 
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
-Postdoctoral Research Associate  
+### **Postdoctoral Research Associate**  
 [Department of Computer Science](https://cs.illinois.edu/)  
 [University of Illinois at Urbana-Champaign](https://illinois.edu)  
 Host : [Prof. Tianyin Xu](https://tianyin.github.io/)
