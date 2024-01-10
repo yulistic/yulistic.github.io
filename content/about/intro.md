@@ -15,16 +15,16 @@ language:
 
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
-A postdoctoral researcher in [School of Computing](http://cs.kaist.ac.kr) at [KAIST](http://www.kaist.ac.kr)  
-Research Group : [Computer Architecture and Systems Lab.](http://casys.kaist.ac.kr)
+A postdoctoral research associate in [Department of Computer Science](https://cs.illinois.edu/) at [University of Illinois at Urbana-Champaign](https://illinois.edu)
+Host : [Prof. Tianyin Xu](https://tianyin.github.io/)
 
-_4422 E3, KAIST, 291 Daehak-ro, Yuseong-gu,_  
-_Daejeon 34141, Republic of Korea_  
+_4101 Thomas M. Siebel Center
+201 North Goodwin Ave, Urbana, IL_
 <!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
-<a href="https://map.what3words.com/snappy.smaller.wants" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/snappy.smaller.wants/dark" alt="" width="100" /></a>
+<a href="https://map.what3words.com/crowned.hush.mason" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/crowned.hush.mason/dark" alt="" width="100" /></a>
 
 ##### CV : [CV_jongyulkim](/files/CV_jongyulkim.pdf)
-##### Contact : [<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  yulistic <i class="fa fa-at" aria-hidden="true"></i> kaist.ac.kr] (mailto:yulistic@kaist.ac.kr)
+##### Contact : [<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  jyk <i class="fa fa-at" aria-hidden="true"></i> illinois.edu] (mailto:jyk@illinois.edu)
 
 <!--<a id="contact-link-email" class="contact_link" href="mailto:yulistic@gmail.com" style="font-size:30px">-->
   <!--<span class="fa fa-envelope-square" aria-hidden="true"></span></a>-->
