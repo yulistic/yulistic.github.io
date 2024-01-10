@@ -15,11 +15,13 @@ language:
 
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
-A postdoctoral research associate in [Department of Computer Science](https://cs.illinois.edu/) at [University of Illinois at Urbana-Champaign](https://illinois.edu)
+Postdoctoral Research Associate  
+[Department of Computer Science](https://cs.illinois.edu/)  
+[University of Illinois at Urbana-Champaign](https://illinois.edu)  
 Host : [Prof. Tianyin Xu](https://tianyin.github.io/)
 
-_4101 Thomas M. Siebel Center
-201 North Goodwin Ave, Urbana, IL_
+_4101 Thomas M. Siebel Center  
+201 North Goodwin Ave, Urbana, IL_  
 <!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
 <a href="https://map.what3words.com/crowned.hush.mason" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/crowned.hush.mason/dark" alt="" width="100" /></a>
 
