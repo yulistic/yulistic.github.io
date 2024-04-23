@@ -59,6 +59,9 @@ _4101 Thomas M. Siebel Center
 
 ### Conference and Workshop Papers
 
+- [ASPLOS 2024] [Direct Memory Translation for Virtualized Clouds](https://dl.acm.org/doi/10.1145/3620665.3640358)
+  - Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, **Jongyul Kim**, and Tianyin Xu.
+
 - [NVMW 2022] [LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](http://nvmw.ucsd.edu/onlineprogram/#paper-32)
   - **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel.
 
