@@ -16,9 +16,9 @@ language:
 <img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
 
 ### **Postdoctoral Research Associate**  
+Host professor: [Tianyin Xu](https://tianyin.github.io/)  
 [Department of Computer Science](https://cs.illinois.edu/)  
 [University of Illinois at Urbana-Champaign](https://illinois.edu)  
-Host : [Prof. Tianyin Xu](https://tianyin.github.io/)
 
 _4101 Thomas M. Siebel Center  
 201 North Goodwin Ave, Urbana, IL_  
