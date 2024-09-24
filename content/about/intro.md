@@ -59,6 +59,8 @@ _4101 Thomas M. Siebel Center
 
 ### Conference and Workshop Papers
 
+<i class="fa fa-file" title="slides"></i> : slides
+
 - [ASPLOS 2024] [Direct Memory Translation for Virtualized Clouds](https://dl.acm.org/doi/10.1145/3620665.3640358)
   - Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, **Jongyul Kim**, and Tianyin Xu.
 
