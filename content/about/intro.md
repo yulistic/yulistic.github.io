@@ -61,6 +61,9 @@ _4101 Thomas M. Siebel Center
 
 <i class="fa fa-file" title="slides"></i> : slides
 
+- [ASPLOS 2025] M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems
+  - Yan Sun, **Jongyul Kim**, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
+
 - [ASPLOS 2024] [Direct Memory Translation for Virtualized Clouds](https://dl.acm.org/doi/10.1145/3620665.3640358)
   - Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, **Jongyul Kim**, and Tianyin Xu.
 
