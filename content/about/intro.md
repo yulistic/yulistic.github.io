@@ -61,26 +61,29 @@ _4101 Thomas M. Siebel Center
 
 <i class="fa fa-file" title="slides"></i> : slides
 
+- [OSDI 2025] EMT: An OS Framework for New Memory Translation Architectures
+  - Siyuan Chai, Jiyuan Zhang, Jongyul Kim, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu
+
 - [ASPLOS 2025] M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems
-  - Yan Sun, **Jongyul Kim**, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
+  - Yan Sun, Jongyul Kim, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
 
 - [ASPLOS 2024] [Direct Memory Translation for Virtualized Clouds](https://dl.acm.org/doi/10.1145/3620665.3640358)
-  - Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, **Jongyul Kim**, and Tianyin Xu.
+  - Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, Jongyul Kim, and Tianyin Xu.
 
 - [NVMW 2022] [LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](http://nvmw.ucsd.edu/onlineprogram/#paper-32)
-  - **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel.
+  - Jongyul Kim, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel.
 
 - [SOSP 2021] [LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism](https://dl.acm.org/doi/10.1145/3477132.3483565) [<i class="fa fa-file" title="slides"></i>](/files/LineFS_slides_20min.ppsx)
-  - **Jongyul Kim**, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. **`Best paper award`**.
+  - Jongyul Kim, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel. **`Best paper award`**.
 
 - [NVMW 2021] [Assise: Performance and Availability via Client-local NVM in a Distributed File System](http://nvmw.ucsd.edu/program/#paper-29)
-  - Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Memorable Paper Award Finalists*.
+  - Thomas E. Anderson, Marco Canini, Jongyul Kim, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Memorable Paper Award Finalists*.
 
 - [OSDI 2020] [Assise: Performance and Availability via Client-local NVM in a Distributed File System](https://www.usenix.org/conference/osdi20/presentation/anderson)
-  -  Thomas E. Anderson, Marco Canini, **Jongyul Kim**, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Co-student author*.
+  -  Thomas E. Anderson, Marco Canini, Jongyul Kim, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel. *Co-student author*.
 
 - [SoCC 2017] [On-demand virtualization for live migration in bare metal cloud](https://dl.acm.org/doi/10.1145/3127479.3129254)
-  - Jaeseong Im, **Jongyul Kim**, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng.
+  - Jaeseong Im, Jongyul Kim, Jonguk Kim, Seongwook Jin, and Seungryoul Maeng.
 
 ### Journal Papers
 
