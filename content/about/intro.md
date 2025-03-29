@@ -64,6 +64,9 @@ _4101 Thomas M. Siebel Center
 - [OSDI 2025] EMT: An OS Framework for New Memory Translation Architectures
   - Siyuan Chai, Jiyuan Zhang, Jongyul Kim, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu
 
+- [HotOS 2025] Multiplexing file systems to reap the benefits of storage innovations without friction
+  - Jiyuan Zhang, Jongyul Kim, Chloe Alverti, Peizhe Liu, Weiwei Jia, and Tianyin Xu
+
 - [ASPLOS 2025] M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems
   - Yan Sun, Jongyul Kim, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
 
