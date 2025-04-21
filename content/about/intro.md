@@ -67,7 +67,7 @@ _4101 Thomas M. Siebel Center
 - [HotOS 2025] Multiplexing file systems to reap the benefits of storage innovations without friction
   - Jiyuan Zhang, Jongyul Kim, Chloe Alverti, Peizhe Liu, Weiwei Jia, and Tianyin Xu
 
-- [ASPLOS 2025] M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems
+- [ASPLOS 2025] [M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems](https://dl.acm.org/doi/10.1145/3676641.3711999)
   - Yan Sun, Jongyul Kim, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
 
 - [ASPLOS 2024] [Direct Memory Translation for Virtualized Clouds](https://dl.acm.org/doi/10.1145/3620665.3640358)
