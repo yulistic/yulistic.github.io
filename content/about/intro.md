@@ -17,13 +17,14 @@ language:
 
 ### **Postdoctoral Research Associate**  
 Host professor: [Tianyin Xu](https://tianyin.github.io/)  
-[Department of Computer Science](https://cs.illinois.edu/)  
+[Siebel School of Computing and Data Science](https://cs.illinois.edu/)  
 [University of Illinois at Urbana-Champaign](https://illinois.edu)  
 
-_4101 Thomas M. Siebel Center  
+_4211 Thomas M. Siebel Center  
 201 North Goodwin Ave, Urbana, IL_  
 <!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
-<a href="https://map.what3words.com/crowned.hush.mason" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/crowned.hush.mason/dark" alt="" width="100" /></a>
+<a href="https://map.what3words.com/second.admits.drama" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/second.admits.drama/dark" alt="" width="100" /></a>
+
 
 ##### CV : [CV_jongyulkim](/files/CV_jongyulkim.pdf)
 ##### Contact : [<i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  jyk <i class="fa fa-at" aria-hidden="true"></i> illinois.edu] (mailto:jyk@illinois.edu)
@@ -38,9 +39,10 @@ _4101 Thomas M. Siebel Center
 ### Research Interests
 
 * System software
-* Distributed file system
+* File System
+* Memory System
+* Distributed system
 * SmartNIC
-* Virtualization
 
 <!-- ### Publications
 
@@ -61,10 +63,10 @@ _4101 Thomas M. Siebel Center
 
 <i class="fa fa-file" title="slides"></i> : slides
 
-- [OSDI 2025] EMT: An OS Framework for New Memory Translation Architectures
+- [OSDI 2025] [EMT: An OS Framework for New Memory Translation Architectures](https://www.usenix.org/conference/osdi25/presentation/chai-siyuan)
   - Siyuan Chai, Jiyuan Zhang, Jongyul Kim, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu
 
-- [HotOS 2025] Multiplexing file systems to reap the benefits of storage innovations without friction
+- [HotOS 2025] [Rethinking Tiered Storage: Talk to File Systems, Not Device Drivers](https://dl.acm.org/doi/10.1145/3713082.3730383)
   - Jiyuan Zhang, Jongyul Kim, Chloe Alverti, Peizhe Liu, Weiwei Jia, and Tianyin Xu
 
 - [ASPLOS 2025] [M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems](https://dl.acm.org/doi/10.1145/3676641.3711999)
