@@ -19,8 +19,9 @@
 	theme = "hyde-y"
 
 # Pagination
-	paginate = 10
-	paginatePath = "page"
+[pagination]
+	pagerSize = 10
+	path = "page"
 
 # Enable Disqus integration
 	disqusShortname = "yulisticgithub"
@@ -73,6 +74,15 @@
 	youtube = ""  # Your Youtube channel ID
 	flattr = ""  # populate with your flattr uid
 	orcid = "0000-0002-6877-0189" # ORCID ID
+
+# Enable raw HTML in markdown (for compatibility)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Ignore raw HTML warnings
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [blackfriday]
 angledQuotes = true
