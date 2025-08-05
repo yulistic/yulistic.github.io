@@ -1,6 +1,7 @@
 {{ $url := .Get 0 }}
 {{ $sep := "," }}
-{{ $dataFile := getCSV $sep $url }}
+{{ $resource := resources.Get $url }}
+{{ $dataFile := $resource | transform.Unmarshal (dict "delimiter" $sep) }}
 {{ $.Scratch.Set "count" 0 }}
 
 <style>

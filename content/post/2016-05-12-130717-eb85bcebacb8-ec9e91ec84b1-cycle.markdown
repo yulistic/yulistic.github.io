@@ -4,7 +4,7 @@ comments: true
 date: 2016-05-12 06:49:06+00:00
 type: post
 link: http://yulistic.com/?p=55
-published: false
+draft: true
 slug: 130717-%eb%85%bc%eb%ac%b8-%ec%9e%91%ec%84%b1-cycle
 title: 130717 논문 작성 cycle
 wordpress_id: 55

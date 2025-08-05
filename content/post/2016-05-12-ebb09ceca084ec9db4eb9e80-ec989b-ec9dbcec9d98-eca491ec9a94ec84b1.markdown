@@ -4,7 +4,7 @@ comments: true
 date: 2016-05-12 06:49:06+00:00
 type: post
 link: http://yulistic.com/?p=158
-published: false
+draft: true
 slug: '%eb%b0%9c%ec%a0%84%ec%9d%b4%eb%9e%80-%ec%98%9b-%ec%9d%bc%ec%9d%98-%ec%a4%91%ec%9a%94%ec%84%b1'
 title: 발전이란 - 옛 일의 중요성
 wordpress_id: 158

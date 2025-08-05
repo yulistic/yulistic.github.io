@@ -48,6 +48,9 @@
 	topline = "It's just yulistic!"
 #footline = "With all my heart <i class='fa fa-heart'></i>"
 
+# Disqus configuration for modern Hugo
+	DisqusShortname = "yulisticgithub"
+
 # Sidebar position
 # false, true, "left", "right"
 	sidebar = "left"
