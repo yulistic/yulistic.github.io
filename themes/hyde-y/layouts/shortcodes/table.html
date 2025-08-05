@@ -1,7 +1,10 @@
 {{ $url := .Get 0 }}
 {{ $sep := "," }}
 {{ $resource := resources.Get $url }}
-{{ $dataFile := $resource | transform.Unmarshal (dict "delimiter" $sep) }}
+{{ $dataFile := "" }}
+{{ if $resource }}
+  {{ $dataFile = $resource | transform.Unmarshal (dict "delimiter" $sep) }}
+{{ end }}
 {{ $.Scratch.Set "count" 0 }}
 
 <style>
@@ -19,6 +22,7 @@
 	}
 	</style>
 
+{{ if $dataFile }}
 <table>
 	{{ range $row := $dataFile }}  
 	    <tr>
@@ -33,4 +37,7 @@
 	    {{ $.Scratch.Add "count" 1 }}
 	{{ end }}
     </table>
+{{ else }}
+    <p><em>Table data not found: {{ $url }}</em></p>
+{{ end }}
 
