@@ -51,6 +51,11 @@
 # Disqus configuration for modern Hugo
 	DisqusShortname = "yulisticgithub"
 
+# Author configuration for modern Hugo
+[params.Author]
+	name = "Jongyul Kim"
+	email = "yulistic@gmail.com"
+
 # Sidebar position
 # false, true, "left", "right"
 	sidebar = "left"
