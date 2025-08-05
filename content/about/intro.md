@@ -13,7 +13,7 @@ language:
 
 <!-- ![Hi! I'm Jongyul.](/img/jongyul.jpg) -->
 
-<img src="https://yulistic.gitlab.io/img/jongyul.jpg" alt="drawing" width="200"/>
+<img src="/img/jongyul.jpg" alt="drawing" width="200"/>
 
 ### **Postdoctoral Research Associate**  
 Host professor: [Tianyin Xu](https://tianyin.github.io/)  
