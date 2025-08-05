@@ -1,92 +1,50 @@
-![Build Status](https://gitlab.com/pages/hugo/badges/master/build.svg)
+# Yulistic's Personal Website
 
----
-
-Example [Hugo] website using GitLab Pages.
-
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation http://doc.gitlab.com/ee/pages/README.html.
-
----
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [GitLab CI](#gitlab-ci)
-- [Building locally](#building-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## GitLab CI
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: publysher/hugo
-
-pages:
-  script:
-  - hugo
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
+This is a personal website built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages.
 
 ## Building locally
 
 To work locally with this project, you'll have to follow the steps below:
 
-1. Fork, clone or download this project
-1. [Install][] Hugo
-1. Preview your project: `hugo server`
-1. Add content
-1. Generate the website: `hugo` (optional)
+1. Clone this repository
+2. [Install Hugo](https://gohugo.io/installation/)
+3. Preview your project: `hugo server`
+4. Add content
+5. Generate the website: `hugo` (optional)
 
-Read more at Hugo's [documentation][].
+Read more at Hugo's [documentation](https://gohugo.io/documentation/).
 
 ### Preview your site
 
-If you clone or download this project to your local computer and run `hugo server`,
-your site can be accessed under `localhost:1313/hugo/`.
+If you clone this project to your local computer and run `hugo server`,
+your site can be accessed under `localhost:1313/`.
 
-## GitLab User or Group Pages
+## GitHub Pages Deployment
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+This site is automatically deployed to GitHub Pages using GitHub Actions. The deployment workflow is triggered on every push to the `master` branch.
 
-You'll need to configure your site too: change this line
-in your `config.toml`, from `"https://pages.gitlab.io/hugo/"` to `baseurl = "https://namespace.gitlab.io"`.
-Proceed equaly if you are using a [custom domain][post]: `baseurl = "http(s)://example.com"`. 
+The workflow:
+1. Builds the Hugo site
+2. Deploys to GitHub Pages
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+## Configuration
 
-## Did you fork this project?
+The site configuration is stored in `config.toml`. Key settings include:
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
+- `baseurl`: Set to your GitHub Pages URL (`https://username.github.io/`)
+- `theme`: Currently using the `hyde-y` theme
+- Social links and other personal information
 
-## Troubleshooting
+## Content Management
 
-1. CSS is missing! That means two things:
+- Blog posts are stored in `content/post/`
+- Static files (images, PDFs) are in `static/`
+- Site data is in `data/`
 
-    Either that you have wrongly set up the CSS URL in your templates, or
-    your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
+## Theme
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[hugo]: https://gohugo.io
-[install]: https://gohugo.io/overview/installing/
-[documentation]: https://gohugo.io/overview/introduction/
-[userpages]: http://doc.gitlab.com/ee/pages/README.html#user-or-group-pages
-[projpages]: http://doc.gitlab.com/ee/pages/README.html#project-pages
-[post]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#custom-domains
+This site uses a customized version of the [Hyde-Y](https://github.com/enten/hyde-y) theme for Hugo.
+
+## License
+
+This project is licensed under the terms specified in the LICENSE file.

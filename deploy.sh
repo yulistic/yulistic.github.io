@@ -17,4 +17,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
-git subtree push --prefix=themes/hyde-y https://gitlab.com/yulistic/hyde-y.git master
+# Theme is now managed as part of the main repository

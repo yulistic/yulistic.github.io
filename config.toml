@@ -1,5 +1,5 @@
 # hostname (and path) to the root eg. http://spf13.com/
-	baseurl = "https://yulistic.gitlab.io/"
+	baseurl = "https://yulistic.github.io/"
 
 # Site title
 	title = "Yulistic.com"
@@ -23,7 +23,7 @@
 	paginatePath = "page"
 
 # Enable Disqus integration
-	disqusShortname = "yulisticgitlab"
+	disqusShortname = "yulisticgithub"
 
 [permalinks]
 	post = "/:year/:month/:title/"
