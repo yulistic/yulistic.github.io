@@ -1,102 +1,68 @@
-# hostname (and path) to the root eg. http://spf13.com/
-	baseurl = "https://yulistic.github.io/"
+title = "Jongyul Kim"
+baseURL = "https://yulistic.github.io/"
+theme = "hugo-researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false
 
-# Site title
-	title = "Yulistic.com"
+[services]
+  [services.googleAnalytics]
+    id = "UA-42983013-1"
 
-# Copyright
-#	copyright = "(c) 2016 Jongyul Kim."
-
-# Language
-	languageCode = "en-EN"
-	hasCJKLanguage= true
-
-# Metadata format
-# "yaml", "toml", "json"
-	metaDataFormat = "toml"
-
-# Theme to use (located in /themes/THEMENAME/)
-	theme = "hyde-y"
-
-# Pagination
-[pagination]
-	pagerSize = 10
-	path = "page"
-
-# Enable Disqus integration
-	disqusShortname = "yulisticgithub"
+[params]
+  author = "Jongyul Kim"
+  description = "Postdoctoral Research Associate at University of Illinois at Urbana-Champaign"
+  favicon = "favicon.ico"
+  logo = ""
+  [params.footer]
+    text = "© 2024 Jongyul Kim"
+    url = "https://yulistic.github.io"
+  [params.style]
+    fontFamily = "Inconsolata"
+    fontSize = "14pt"
+    pageWidth = "800px"
+    avatarSize = "120px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:jyk@illinois.edu"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/yulistic"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://linkedin.com/in/jongyul-kim-a1053013a"
+  [[params.socialIcons]]
+    icon = "ai ai-orcid"
+    title = "ORCID"
+    url = "https://orcid.org/0000-0002-6877-0189"
+  [[params.socialIcons]]
+    icon = "ai ai-google-scholar"
+    title = "Google Scholar"
+    url = "https://scholar.google.com"
 
 [permalinks]
-	post = "/:year/:month/:title/"
-	code = "/:slug/"
+  "/" = "/:filename"
+  posts = "/posts/:title/"
 
-[taxonomies]
-	tag = "tags"
-	topic = "topics"
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/files/CV_jongyulkim.pdf"
+    pre = '<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> '
+    weight = 2
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 3
 
-[author]
-	name = "Jongyul Kim"
-	email = "yulistic@gmail.com"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-[params]
-# You can use markdown here.
-#brand = "slow<i class='fa fa-star'></i> steady"
-	brand = "Slow & Steady"
-	topline = "It's just yulistic!"
-#footline = "With all my heart <i class='fa fa-heart'></i>"
-
-# Disqus configuration for modern Hugo
-	DisqusShortname = "yulisticgithub"
-
-# Author configuration for modern Hugo
-[params.Author]
-	name = "Jongyul Kim"
-	email = "yulistic@gmail.com"
-
-# Sidebar position
-# false, true, "left", "right"
-	sidebar = "left"
-
-# Text for the top menu link, which goes the root URL for the site.
-# Default (if omitted) is "Home".
-	home = "Home"
-
-# Select a syntax highight.
-# Check the static/css/highlight directory for options.
-	highlight = "default"
-
-# Google Analytics.
-	googleAnalytics = "UA-42983013-1"
-#gravatarHash = "d2da470451f74ec97d7aa44756087937"
-
-# Sidebar social links.
-	github = "yulistic" # Your Github profile ID
-	bitbucket = "yulistic" # Your Bitbucket profile ID
-	linkedin = "jongyul-kim-a1053013a" # Your LinkedIn profile ID (from public URL)
-	googleplus = "" # Your Google+ profile ID
-	facebook = "" # Your Facebook profile ID
-	twitter = "" # Your Twitter profile ID
-	youtube = ""  # Your Youtube channel ID
-	flattr = ""  # populate with your flattr uid
-	orcid = "0000-0002-6877-0189" # ORCID ID
-
-# Enable raw HTML in markdown (for compatibility)
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-# Ignore raw HTML warnings
-ignoreLogs = ['warning-goldmark-raw-html']
-
-[blackfriday]
-angledQuotes = true
-fractions = false
-hrefTargetBlank = false
-latexDashes = true
-plainIdAnchors = true
-extensions = []
-extensionmask = []
+[markup.goldmark.renderer]
+  unsafe = true

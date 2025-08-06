@@ -96,8 +96,7 @@ _4211 Thomas M. Siebel Center
   - Jaeseong Im, Jongyul Kim, Youngjin Kwon, Seungryoul Maeng. IEEE Transactions on Cloud Computing, June 2022. *Impact factor: 5.938*
 
 
-<!-- Table version. -->
-<!-- {{< table "/assets/data/publications.csv" >}} -->
+<!-- Table version removed for new theme -->
 
 <!-- ### Projects
 
