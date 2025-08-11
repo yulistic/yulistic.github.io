@@ -20,7 +20,7 @@ math = false
   [params.style]
     fontFamily = "Inconsolata"
     fontSize = "14pt"
-    pageWidth = "800px"
+    pageWidth = "1200px"
     avatarSize = "120px"
     colorBlack = "#222222"
     colorRed = "#dc3545"
