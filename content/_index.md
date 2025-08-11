@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Home"
 +++
 
 {{< figure class="avatar" src="/img/jongyul.jpg" alt="Jongyul Kim">}}
