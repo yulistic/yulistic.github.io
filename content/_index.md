@@ -4,12 +4,13 @@ title = "Home"
 
 {{< figure class="avatar" src="/img/jongyul.jpg" alt="Jongyul Kim">}}
 
-I am a **Postdoctoral Research Associate** working with [Tianyin Xu](https://tianyin.github.io/) at the [Siebel School of Computing and Data Science](https://cs.illinois.edu/), [University of Illinois at Urbana-Champaign](https://illinois.edu).
-
-*4211 Thomas M. Siebel Center  
-201 North Goodwin Ave, Urbana, IL*
-<!-- <a href="http://w3w.co/chef.tasty.quirky" target="_blank"><img class="" src="http://what3words.com/calls/embed/text/chef.tasty.quirky/dark" alt="" width="100" /></a> -->
-<a href="https://map.what3words.com/second.admits.drama" target="_blank"><img class="" src="https://what3words.com/calls/embed/text/second.admits.drama/dark" alt="" width="100" /></a>
+I am a **Postdoctoral Research Associate** working with [Tianyin
+Xu](https://tianyin.github.io/) at the [Siebel School of Computing and Data
+Science](https://cs.illinois.edu/), [University of Illinois at
+Urbana-Champaign (UIUC)](https://illinois.edu). I earned my Ph.D. from the [School of
+Computing](https://cs.kaist.ac.kr/) at the [Korea Advanced Institute of Science and Technology (KAIST)](https://kaist.ac.kr/en/),
+where I was a member of the [Computer Architecture and Systems Laboratory (CASYS)](https://casyslab.kaist.ac.kr/) advised by
+[Youngjin Kwon](https://sites.google.com/view/yjkwon/home) and [Seungryoul Maeng](https://casyslab.kaist.ac.kr/maeng).
 
 ## Research Interests
 
@@ -23,5 +24,17 @@ I am a **Postdoctoral Research Associate** working with [Tianyin Xu](https://tia
 
 ---
 
-📧 **Contact**: jyk [at] illinois.edu  
-📄 **CV**: [Download PDF](/files/CV_jongyulkim.pdf)
+## Contact Info.
+
+4211 Thomas M. Siebel Center  
+201 North Goodwin Ave, Urbana, IL, USA
+<!-- <a href="https://map.what3words.com/second.admits.drama" target="_blank"><img style="margin-left: 0 !important; margin-right: auto !important; margin-top: 0.1em !important; margin-bottom: 0.2em !important;"
+src="https://what3words.com/calls/embed/text/second.admits.drama/dark" alt=""
+width="120" /></a> -->
+
+<!-- Email: <a href="mailto:jyk@illinois.edu">jyk [at] illinois.edu</a> -->
+Email: jyk [at] illinois.edu / yulistic [at] gmail.com
+
+<!-- Email: <a href="mailto:jyk@illinois.edu"><i class="fa fa-envelope-square fa-lg" aria-hidden="true"></i>  jyk <i class="fa fa-at" aria-hidden="true"></i> illinois.edu</a> -->
+
+<!-- 📄 **CV**: [Download PDF](/files/CV_jongyulkim.pdf) -->
