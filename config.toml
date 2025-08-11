@@ -43,7 +43,7 @@ math = false
   [[params.socialIcons]]
     icon = "ai ai-google-scholar"
     title = "Google Scholar"
-    url = "https://scholar.google.com"
+    url = "https://scholar.google.com/citations?user=5CarhN4AAAAJ&hl=en"
 
 [permalinks]
   "/" = "/:filename"
