@@ -25,11 +25,12 @@ where I was a member of the [Computer Architecture and Systems Laboratory (CASYS
 
 **Program Committee:**
 
-* Usenix ATC: 2024(External), 2025
+* Usenix ATC: 2024(ERC), 2025
 * EuroSys: 2023(Shadow PC)
 
 **Journal Review:**
-* ACM Transactions on Storage: 2022.
+
+* ACM Transactions on Storage: 2022
 
 ---
 
