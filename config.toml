@@ -1,6 +1,7 @@
 title = "Jongyul Kim"
 baseURL = "https://yulistic.github.io/"
 theme = "hugo-researcher"
+disablePathToLower = true
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false
