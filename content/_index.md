@@ -73,4 +73,4 @@ operations, driving new architectural paradigms in operating systems.
 
 **Journal Review:**
 
-* ACM Transactions on Storage: 2022
+* ACM Transactions on Storage: 2022, 2025
