@@ -4,7 +4,9 @@ title = "Home"
 
 {{< figure class="avatar" src="/img/jongyul.jpeg" alt="Jongyul Kim">}}
 
-I am a **Postdoctoral Research Associate** working with [Tianyin
+I am a systems researcher focused on re-architecting system software that bridges emerging hardware technologies with real-world systems, improving performance and efficiency at scale.
+
+I am currently a **Postdoctoral Research Associate** working with [Tianyin
 Xu](https://tianyin.github.io/) at the [Siebel School of Computing and Data
 Science](https://cs.illinois.edu/), [University of Illinois Urbana-Champaign
 (UIUC)](https://illinois.edu). I earned my Ph.D. from the [School of
@@ -15,6 +17,12 @@ and Technology (KAIST)](https://kaist.ac.kr/en/), where I was a member of the
 Kwon](https://sites.google.com/view/yjkwon/home) and [Seungryoul
 Maeng](https://casyslab.kaist.ac.kr/maeng).
 
+
+## Research Interests
+
+I work on storage and memory systems, including distributed file systems and memory hierarchy design, with an emphasis on cloud and data center environments.
+Recently, I have explored how programmable devices such as DPUs and computational storage can reshape existing system architectures, with growing interest in system support for emerging AI/ML workloads.
+
 ## Contact
 
 <style>
@@ -22,7 +30,7 @@ Maeng](https://casyslab.kaist.ac.kr/maeng).
 </style>
 
 <!-- <i class="fas fa-file-pdf contact-icon"></i> [Curriculum Vitae](files/CV_jongyulkim.pdf)   -->
-<i class="fas fa-envelope contact-icon"></i> Email: jyk (at) illinois.edu / yulistic (at) gmail.com  
+<i class="fas fa-envelope contact-icon"></i> Email: jyk (at) illinois.edu | yulistic (at) gmail.com  
 <i class="fas fa-building contact-icon"></i> Office: 4211, Siebel Center, 201 North Goodwin Avenue, Urbana, IL, USA  
 <i class="fab fa-linkedin contact-icon"></i> [LinkedIn](https://linkedin.com/in/jongyul-kim-a1053013a) |
 <i class="ai ai-google-scholar contact-icon"></i> [Google Scholar](https://scholar.google.com/citations?user=5CarhN4AAAAJ&hl=en) |
@@ -49,26 +57,12 @@ width="120" /></a> -->
 
 <!-- 📄 **CV**: [Download PDF](/files/CV_jongyulkim.pdf) -->
 
----
-
-## Research Interests
-
-My research focuses on designing system software that bridges emerging hardware
-technologies to improve the performance, reliability, and efficiency of modern
-computing systems. In particular, I have developed file systems that leverage
-emerging storage and network devices in cloud and data center environments. My work
-also extends to memory systems, where I explore innovative ways to optimize the
-memory hierarchy and data movement. I have also investigated distributed systems
-challenges, focusing on building scalable, fault-tolerant systems capable of
-meeting modern application demands. More recently, I have explored how smart
-devices such as programmable NICs and SSDs can accelerate system-level
-operations, driving new architectural paradigms in operating systems.
 
 ## Service
 
 **Program Committee:**
 
-* Usenix ATC: 2024(ERC), 2025
+* USENIX ATC: 2024(ERC), 2025
 * EuroSys: 2023(Shadow PC)
 
 **Journal Review:**
