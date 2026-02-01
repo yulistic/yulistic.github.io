@@ -12,7 +12,7 @@ math = false
 
 [params]
   author = "Jongyul Kim"
-  description = "Postdoctoral Research Associate at University of Illinois at Urbana-Champaign"
+  description = "Advancing operating systems and memory/storage architectures for modern computing."
   favicon = "favicon.ico"
   logo = ""
   [params.footer]

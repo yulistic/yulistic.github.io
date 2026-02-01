@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Jongyul Kim</title>
+  <desc id="desc">Systems Researcher</desc>
+  <rect width="1200" height="630" fill="#ffffff" />
+  <rect x="36" y="72" width="1128" height="486" fill="#ffffff" stroke="#e6e6e6" stroke-width="2" rx="16" />
+  <text x="96" y="322" fill="#222222" font-family="Inconsolata, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="92" font-weight="700">Jongyul Kim</text>
+  <text x="96" y="402" fill="#555555" font-family="Inconsolata, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="38" font-weight="400" letter-spacing="2">Systems Researcher</text>
+</svg>
