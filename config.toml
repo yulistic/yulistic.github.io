@@ -12,7 +12,7 @@ math = false
 
 [params]
   author = "Jongyul Kim"
-  description = "Advancing operating systems and memory/storage architectures for modern computing."
+  description = "Jongyul Kim is a systems researcher working on storage, memory, and distributed systems at scale, bridging emerging hardware with real-world cloud and data center environments."
   favicon = "favicon.ico"
   logo = ""
   [params.footer]
