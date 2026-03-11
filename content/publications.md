@@ -70,6 +70,9 @@ title = "Publications"
 ### Conference and Workshop Papers
 
 <div class="pubs">
+  <div class="venue">EuroSys 2026</div>
+  <div class="title"><a href="">CofferOS: Hardening OS-level Virtualization with Rust</a><br/>Minkyu Jung, Chanshin Kwak, Junho Ahn, Sunho Park, Changjun Lee, <strong>Jongyul Kim</strong>, Jeehoon Kang, and Youngjin Kwon</div>
+
   <div class="venue">OSDI 2025</div>
   <div class="title"><a href="https://www.usenix.org/conference/osdi25/presentation/chai-siyuan">EMT: An OS Framework for New Memory Translation Architectures</a><br/>Siyuan Chai, Jiyuan Zhang, <strong>Jongyul Kim</strong>, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu</div>
 
