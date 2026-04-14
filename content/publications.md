@@ -92,7 +92,7 @@ title = "Publications"
   <div class="title"><a href="https://dl.acm.org/doi/10.1145/3477132.3483565">LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism</a><br/><strong>Jongyul Kim</strong>, Insu Jang, Waleed Reda, Jaeseong Im, Marco Canini, Dejan Kostić, Youngjin Kwon, Simon Peter, and Emmett Witchel<br/><span class="award">🏆 Best Paper Award</span><br/><a href="/files/LineFS_slides_20min.ppsx" class="talk-link">Slides</a></div>
 
   <div class="venue">NVMW 2021</div>
-  <div class="title"><a href="http://nvmw.ucsd.edu/program/#paper-29">Assise: Performance and Availability via Client-local NVM in a Distributed File System</a><br/>Thomas E. Anderson, Marco Canini, <strong>Jongyul Kim</strong>, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel<br/><span class="award">Memorable Paper Award Finalists</span></div>
+  <div class="title"><a href="http://nvmw.ucsd.edu/program/#paper-29">Assise: Performance and Availability via Client-local NVM in a Distributed File System</a><br/>Thomas E. Anderson, Marco Canini, <strong>Jongyul Kim</strong>, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel<br/><span class="award">Memorable Paper Award Finalist</span></div>
 
   <div class="venue">OSDI 2020</div>
   <div class="title"><a href="https://www.usenix.org/conference/osdi20/presentation/anderson">Assise: Performance and Availability via Client-local NVM in a Distributed File System</a><br/>Thomas E. Anderson, Marco Canini, <strong>Jongyul Kim</strong>, Dejan Kostić, Youngjin Kwon, Simon Peter, Waleed Reda, Henry N. Schuh, and Emmett Witchel</div>
