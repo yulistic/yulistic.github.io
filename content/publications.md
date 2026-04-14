@@ -74,7 +74,7 @@ title = "Publications"
   <div class="title"><a href="">CofferOS: Hardening OS-level Virtualization with Rust</a><br/>Minkyu Jung, Chanshin Kwak, Junho Ahn, Sunho Park, Changjun Lee, <strong>Jongyul Kim</strong>, Jeehoon Kang, and Youngjin Kwon</div>
 
   <div class="venue">OSDI 2025</div>
-  <div class="title"><a href="https://www.usenix.org/conference/osdi25/presentation/chai-siyuan">EMT: An OS Framework for New Memory Translation Architectures</a><br/>Siyuan Chai, Jiyuan Zhang, <strong>Jongyul Kim</strong>, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu</div>
+  <div class="title"><a href="https://www.usenix.org/conference/osdi25/presentation/chai-siyuan">EMT: An OS Framework for New Memory Translation Architectures</a><br/>Siyuan Chai, Jiyuan Zhang, <strong>Jongyul Kim</strong>, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu<br/><span class="award">IEEE Micro Top Picks 2026 Honorable Mention</span></div>
 
   <div class="venue">HotOS 2025</div>
   <div class="title"><a href="https://dl.acm.org/doi/10.1145/3713082.3730383">Rethinking Tiered Storage: Talk to File Systems, Not Device Drivers</a><br/>Jiyuan Zhang, <strong>Jongyul Kim</strong>, Chloe Alverti, Peizhe Liu, Weiwei Jia, and Tianyin Xu</div>
