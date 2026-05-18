@@ -70,8 +70,11 @@ title = "Publications"
 ### Conference and Workshop Papers
 
 <div class="pubs">
+  <div class="venue">OSDI 2026</div>
+  <div class="title"><a href="https://www.usenix.org/conference/osdi26/presentation/kim-jongyul">Oxbow: A Coordinated Architecture for Multi-component File Systems</a><br/><strong>Jongyul Kim</strong>, Jaehwan Lee, Inhoe Koo, Peizhe Liu, Jiyuan Zhang, Junho Ahn, Tianyin Xu, and Youngjin Kwon</div>
+
   <div class="venue">EuroSys 2026</div>
-  <div class="title"><a href="">CofferOS: Hardening OS-level Virtualization with Rust</a><br/>Minkyu Jung, Chanshin Kwak, Junho Ahn, Sunho Park, Changjun Lee, <strong>Jongyul Kim</strong>, Jeehoon Kang, and Youngjin Kwon</div>
+  <div class="title"><a href="https://dl.acm.org/doi/10.1145/3767295.3803569">CofferOS: Hardening OS-level Virtualization with Rust</a><br/>Minkyu Jung, Chanshin Kwak, Junho Ahn, Sunho Park, Changjun Lee, <strong>Jongyul Kim</strong>, Jeehoon Kang, and Youngjin Kwon</div>
 
   <div class="venue">OSDI 2025</div>
   <div class="title"><a href="https://www.usenix.org/conference/osdi25/presentation/chai-siyuan">EMT: An OS Framework for New Memory Translation Architectures</a><br/>Siyuan Chai, Jiyuan Zhang, <strong>Jongyul Kim</strong>, Alan Wang, Fan Chung, Jovan Stojkovic, Weiwei Jia, Dimitrios Skarlatos, Josep Torrellas, and Tianyin Xu<br/><span class="award">IEEE Micro Top Picks 2026 Honorable Mention</span></div>
