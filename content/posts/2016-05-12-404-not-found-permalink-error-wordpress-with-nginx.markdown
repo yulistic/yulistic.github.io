@@ -11,8 +11,6 @@ title: 404 not found permalink error (wordpress with nginx)
 wordpress_id: 92
 language:
 - English
-topics:
-- Issues
 ---
 
 # Problem 
