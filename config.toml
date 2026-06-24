@@ -64,7 +64,7 @@ math = false
     url = "/files/CV_jongyulkim.pdf"
     weight = 3
   [[menu.main]]
-    name = "System conference deadlines"
+    name = "Conf. Deadlines"
     url = "https://yulistic.github.io/sysconfdeadlines/"
     weight = 4
 #  [[menu.main]]
