@@ -16,8 +16,9 @@ math = false
   favicon = "favicon.ico"
   logo = ""
   [params.footer]
-    text = "© 2025 Jongyul Kim"
+    text = "Jongyul Kim"
     url = "https://yulistic.github.io"
+    currentYear = true
   [params.style]
     fontFamily = "Inconsolata"
     fontSize = "14pt"

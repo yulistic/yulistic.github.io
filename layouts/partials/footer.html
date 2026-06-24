@@ -1,0 +1,20 @@
+<div id="footer" class="mb-5">
+    <hr>
+    {{ if .Site.Params.socialIcons }}
+    <div class="container text-center">
+        {{ range $item := .Site.Params.socialIcons }}
+            <a href="{{ $item.url }}" class="{{ $item.icon }} fa-1x" title="{{ $item.title }}"></a>
+        {{ end }}
+    </div>
+    {{ end }}
+    {{ with .Site.Params.footer }}
+        {{ $year := now.Format "2006" }}
+        {{ $title := .text }}
+        {{ if .currentYear }}
+            {{ $title = printf "Copyright %s %s" $year .text }}
+        {{ end }}
+        <div class="container text-center">
+            <a href="{{ .url | absURL }}" title="{{ $title }}" {{ if .blank }}target="_blank"{{ end }}><small>{{ if .currentYear }}&copy; {{ $year }} {{ .text }}{{ else }}{{ .text }}{{ end }}</small></a>
+        </div>
+    {{ end }}
+</div>
