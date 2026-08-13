@@ -83,7 +83,7 @@ title = "Publications"
   <div class="title"><a href="https://dl.acm.org/doi/10.1145/3713082.3730383">Rethinking Tiered Storage: Talk to File Systems, Not Device Drivers</a><br/>Jiyuan Zhang, <strong>Jongyul Kim</strong>, Chloe Alverti, Peizhe Liu, Weiwei Jia, and Tianyin Xu</div>
 
   <div class="venue">ASPLOS 2025</div>
-  <div class="title"><a href="https://dl.acm.org/doi/10.1145/3676641.3711999">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</a><br/>Yan Sun, <strong>Jongyul Kim</strong>, Douglas Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim</div>
+  <div class="title"><a href="https://dl.acm.org/doi/10.1145/3676641.3711999">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</a><br/>Yan Sun, <strong>Jongyul Kim</strong>, Zeduo Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, Hwayong Nam, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim</div>
 
   <div class="venue">ASPLOS 2024</div>
   <div class="title"><a href="https://dl.acm.org/doi/10.1145/3620665.3640358">Direct Memory Translation for Virtualized Clouds</a><br/>Jiyuan Zhang, Weiwei Jia, Siyuan Chai, Peizhe Liu, <strong>Jongyul Kim</strong>, and Tianyin Xu</div>
